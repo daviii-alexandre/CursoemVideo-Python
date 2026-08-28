@@ -1,0 +1,13 @@
+nome = input('Aluno: ')
+nota1 = float(input('Insira a primeira nota do aluno: '))
+print('-'*20)
+nota2 = float(input('insira a segunda nota do aluno: '))
+print('-'*20)
+nota3 = float(input('Insira a terceira nota do aluno: '))
+print('-'*20)
+nota4 = float(input('Insira a quarta nota do aluno: '))
+print('='*20)
+print('Calculando média final...'.title())
+print('='*20)
+media = (nota1 + nota2 + nota3 + nota4) / 4
+print('O aluno {}, conseguiu a média final de {}.'.format(nome.upper(), media))
